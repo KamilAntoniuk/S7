@@ -1,0 +1,77 @@
+
+body{
+    background: #95b6c9;
+}
+.przeglad{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 1004px;
+    background: #84aec6;
+ 
+}
+.przeglad h1{
+    font-size: 24px;
+    color: aquamarine;
+    font-family: 'Cinzel', serif;
+}
+.przeglad p{
+    font-size: 18px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.img{
+    height: auto;
+    display: block;
+}
+
+.center{
+    margin: 0 auto;
+}
+}
+.navbar{
+   width:100%;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transition: .5s;
+    z-index: 2;
+    text-decoration: none;
+    
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+    color:aquamarine;
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 10px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.navbar ul li:hover{
+    background: orange;
+}
+
+.header-nav{
+    width: 100%;
+    
+}
+
+li1{
+    color:#00ebff;
+    font-size: 55px;
+    font-family: 'Cinzel', serif;
+}
+
+a{
+ text-decoration: none;
+ color: aquamarine;
+}

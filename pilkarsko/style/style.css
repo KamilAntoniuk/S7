@@ -1,0 +1,138 @@
+
+{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: Crimson;
+    front-size:1rem;
+    line-height: 1.5;
+    color:#333;
+    overflow-x:hidden;
+}
+
+.v-header{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    color:#fff;
+}
+
+.container{
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header-overlay{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index:1;  
+    opacity: 0.65;
+    
+}
+
+.header-content{
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-content h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    color:#00ebff;
+}
+
+.header-content p{
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+    text-align: center;
+    
+}
+
+.btn{
+    background: #34b3a0;
+    color:#fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.section{
+    padding: 20px 0;
+}
+
+@media(max-width:960px){
+    padding-righ:3rem;
+    padding-left:3rem;
+    
+}
+.navbar{
+   width:100%;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transition: .5s;
+    z-index: 2;
+    text-decoration: none;
+    
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+    color:aquamarine;
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 10px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.navbar ul li:hover{
+    background: orange;
+}
+
+.header-nav{
+    width: 100%;
+    
+}
+
+li1{
+    color:#00ebff;
+    font-size: 55px;
+    font-family: 'Cinzel', serif;
+}
+
+a{
+ text-decoration: none;
+ color: aquamarine;
+}
+
+
